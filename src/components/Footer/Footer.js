@@ -10,28 +10,28 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:0424-8880741">0424-8880741</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:correamillancarlos@gmail.com">
+            correamillancarlos@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Dream Always</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href="https://github.com/Deadflight">
+            <AiFillGithub size="2.5em" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
+          <SocialIcons href="https://www.linkedin.com/in/deadflight/">
+            <AiFillLinkedin size="2.5em" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="https://www.facebook.com/Carlos-Correa-105811761669254">
+            <AiFillInstagram size="2.5em"/>
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

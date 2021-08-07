@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCss3, DiFirebase, DiGit, DiGithub, DiHtml5, DiJavascript, DiReact, DiSass, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,44 +8,59 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the Frontend development world.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiReact size="2.5em" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
+          <ListTitle>React</ListTitle>
+          {/*<ListParagraph>
             Experiece with <br />
             React.js
-          </ListParagraph>
+          </ListParagraph>*/}
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiGit size="2.5em" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
+          <ListTitle>Git</ListTitle>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiSass size="2.5em" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
+          <ListTitle>SASS</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiHtml5 size="2.5em" />
+        </picture>
+        <ListContainer>
+          <ListTitle>HTML5</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiCss3 size="2.5em" />
+        </picture>
+        <ListContainer>
+          <ListTitle>CSS3</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiJavascript size="2.5em" />
+        </picture>
+        <ListContainer>
+          <ListTitle>JavaScript</ListTitle>
         </ListContainer>
       </ListItem>
     </List>
