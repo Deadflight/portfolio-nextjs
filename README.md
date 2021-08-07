@@ -2,7 +2,7 @@
 
 ### [Live Site](https://google.com)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](./public/images/ScreenShot.PNG)
 
 My React Portfolio Website
 
