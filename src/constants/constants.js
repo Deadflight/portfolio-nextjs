@@ -44,3 +44,12 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+export const MetaTags = {
+  og: {
+    title: 'Carlos Correa',
+    image: 'https://carloscorreaportfolio.netlify.app/images/ScreenShot.PNG',
+    description: 'Carlos Correa Portfolio',
+    url: 'https://carloscorreaportfolio.netlify.app/'
+  }
+};
