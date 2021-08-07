@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -31,17 +31,20 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
-      <Div3>
-        <SocialIcons href="https://github.com/Deadflight">
-          <AiFillGithub size="2.5em" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/deadflight/">
-          <AiFillLinkedin size="2.5em" />
-        </SocialIcons>
-        <SocialIcons href="https://www.facebook.com/Carlos-Correa-105811761669254">
-          <AiFillInstagram size="2.5em"/>
-        </SocialIcons>
-      </Div3>
+    <Div3>
+      <SocialIcons href="https://github.com/Deadflight" target="_blank" rel="noreferrer">
+        <AiFillGithub size="2em" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/deadflight/" target="_blank" rel="noreferrer">
+        <AiFillLinkedin size="2em" />
+      </SocialIcons>
+      <SocialIcons href="https://www.facebook.com/Carlos-Correa-105811761669254" target="_blank" rel="noreferrer">
+        <AiFillFacebook size="2em"/>
+      </SocialIcons>
+      <SocialIcons href="https://twitter.com/Deadfligth" target="_blank" rel="noreferrer">
+        <AiFillTwitterCircle size="2em"/>
+      </SocialIcons>
+    </Div3>
     </Container>
 );
 

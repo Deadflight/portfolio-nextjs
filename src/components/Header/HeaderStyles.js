@@ -29,10 +29,10 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 5;
   }
 `;
 export const Div3 = styled.div`
@@ -41,8 +41,7 @@ export const Div3 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 1 / 4 / 2 / 5;
   }
 `;
 

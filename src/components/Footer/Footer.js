@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -24,14 +24,14 @@ const Footer = () => {
           <Slogan>Dream Always</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Deadflight">
+          <SocialIcons href="https://github.com/Deadflight" target="_blank" rel="noreferrer">
             <AiFillGithub size="2.5em" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/deadflight/">
+          <SocialIcons href="https://www.linkedin.com/in/deadflight/" target="_blank" rel="noreferrer">
             <AiFillLinkedin size="2.5em" />
           </SocialIcons>
-          <SocialIcons href="https://www.facebook.com/Carlos-Correa-105811761669254">
-            <AiFillInstagram size="2.5em"/>
+          <SocialIcons href="https://www.facebook.com/Carlos-Correa-105811761669254" target="_blank" rel="noreferrer">
+            <AiFillFacebook size="2.5em"/>
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
