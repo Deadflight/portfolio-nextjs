@@ -14,9 +14,9 @@ const Home = () => {
     <Head>
       <title>Carlos Correa</title>  
       <meta property='og:title' content='Carlos Correa'/>
-      <meta property='og:image' content='//public/images/ScreenShot.PNG'/>
+      <meta property='og:image' content='https://carloscorreaportfolio.netlify.app/images/ScreenShot.PNG'/>
       <meta property='og:description' content='Carlos Correa Portfolio'/>
-      <meta property='og:url' content='//https://carloscorreaportfolio.netlify.app/'/>
+      <meta property='og:url' content='https://carloscorreaportfolio.netlify.app/'/>
     </Head>
     <Layout>
       <Section grid>
