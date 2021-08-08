@@ -31,22 +31,21 @@ export const List = styled.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 2.5rem;
   margin: 3rem 0;
   
   @media ${props => props.theme.breakpoints.lg}{
-    margin: 64px 0;
+    margin: 4rem 0;
   }
 
   @media ${props => props.theme.breakpoints.md}{
-    margin: 64px 0;
-    gap: 24px
+    margin: 4rem 0;
+    gap: 1.5rem;
   }
   
   @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
-    flex-direction: column;
-    margin: 32px 0;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 0;
   }
 `
 
