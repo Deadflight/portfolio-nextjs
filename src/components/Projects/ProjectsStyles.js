@@ -8,10 +8,10 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
 display: grid;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(3,1fr);
 place-items: center;
-padding: 0.5rem 1rem;
-gap: 3rem;
+padding: 0.5rem 0.5rem;
+gap: 2.5rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
