@@ -66,7 +66,7 @@ export const TimeLineData = [
 export const MetaTags = {
   og: {
     title: 'Carlos Correa',
-    image: 'https://carloscorreaportfolio.netlify.app/images/ScreenShot.PNG',
+    image: 'https://github.com/Deadflight/portfolio-react/blob/main/public/images/ScreenShot.PNG',
     description: 'Carlos Correa Portfolio',
     url: 'https://carloscorreaportfolio.netlify.app/'
   }
