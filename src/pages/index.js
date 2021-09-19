@@ -18,6 +18,7 @@ const Home = () => {
       <meta property='og:image' content={MetaTags.og.image}/>
       <meta property='og:description' content={MetaTags.og.description}/>
       <meta property='og:url' content={MetaTags.og.url}/>
+      <meta property='og:image' name="linkedin:image" content={MetaTags.og.image}/>
     </Head>
     <Layout>
       <Section grid>
