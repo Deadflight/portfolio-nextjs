@@ -10,9 +10,9 @@ export const projects = [
   },
   {
     title: 'Pokedex',
-    description: "Using React, made this app using pokeAPI to practice my skills with Material UI ",
-      image: '/images/restcountriesapi.PNG',
-      tags: ['React','API REST', 'Material UI'],
+    description: "Using React, made this app using pokeAPI to practice my skills with Material UI, and React Router ",
+      image: '/images/pokedex.PNG',
+      tags: ['React','API REST', 'Material UI', 'React Router'],
     source: 'https://github.com/Deadflight/Pokedex',
     visit: 'https://pokedexdeadflight.netlify.app',
     id: 1,
