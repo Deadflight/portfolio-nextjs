@@ -9,12 +9,12 @@ export const projects = [
     id: 0
   },
   {
-    title: 'Rest Countries API',
-    description: "Using React, I made an application using REST Countries API to show the Countries with their respective descriptions to the users ",
+    title: 'Pokedex',
+    description: "Using React, made this app using pokeAPI to practice my skills with Material UI ",
       image: '/images/restcountriesapi.PNG',
-      tags: ['React','API REST'],
-    source: 'https://github.com/Deadflight/rest-countries-api',
-    visit: 'https://rest-api-countries-deadflight.netlify.app',
+      tags: ['React','API REST', 'Material UI'],
+    source: 'https://github.com/Deadflight/Pokedex',
+    visit: 'https://pokedexdeadflight.netlify.app',
     id: 1,
   },
   {
