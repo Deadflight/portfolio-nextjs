@@ -14,7 +14,7 @@ export const projects = [
       image: '/images/pokedex.PNG',
       tags: ['React','API REST', 'Material UI', 'React Router'],
     source: 'https://github.com/Deadflight/Pokedex',
-    visit: 'https://pokedexdeadflight.netlify.app',
+    visit: 'https://deadflight.github.io/Pokedex',
     id: 1,
   },
   {
