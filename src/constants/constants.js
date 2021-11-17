@@ -36,12 +36,12 @@ export const projects = [
     id: 3
   },
   {
-    title: 'Medical-Chat',
-    description:"Medical Chat Using React StreamChat",
-    image: '/images/medical-chat.PNG',
-    tags: ['React', 'API Rest'],
-    source: 'https://github.com/Deadflight/medical-chat-pager-frontend',
-    visit: 'https://medic-chat.netlify.app/',
+    title: 'Plantpedia',
+    description:"With Platzi's Next.Js courses Plantpedia learning about Server Side Rendering (SSR), Static Side Generation (SSG), Incremental Static Regeneration (ISR)",
+    image: '/images/plantpedia.PNG',
+    tags: ['Next.js', 'SSR', 'SSG','ISR', 'Contentful', 'Preview Mode'],
+    source: 'https://github.com/Deadflight/Platzi-Plantpedia',
+    visit: 'https://platzi-plantpedia-amber.vercel.app/',
     id: 4,
   },
   {
