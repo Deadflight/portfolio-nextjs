@@ -1,21 +1,12 @@
 export const projects = [
   {
-    title: 'E-Commerce',
-    description: "An E-Commerce using React.js and handling with Commercejs API and Stripe API",
-    image: '/images/ecommerce.PNG',
-    tags: ['React, Commercejs, Stripe, Material-UI'],
-    source: 'https://github.com/Deadflight/e-commercejs-react',
-    visit: 'https://ecommercejsreact.netlify.app/',
-    id: 0
-  },
-  {
-    title: 'Pokedex',
-    description: "Using React, made this app using pokeAPI to practice my skills with Material UI, and React Router ",
-      image: '/images/pokedex.PNG',
-      tags: ['React','API REST', 'Material UI', 'React Router'],
-    source: 'https://github.com/Deadflight/Pokedex',
-    visit: 'https://deadflight.github.io/Pokedex',
-    id: 1,
+    title: 'CryptoVerse',
+    description: "Crypto App using React, API Rest, Redux",
+      image: '/images/cryptoverse.PNG',
+      tags: ['React', 'API Rest', 'Redux'],
+    source: 'https://github.com/Deadflight/cryptoverse-react-app',
+    visit: 'https://cryptoversedeadflight.netlify.app/',
+    id: 0,
   },
   {
     title: 'Travel Companion',
@@ -24,7 +15,25 @@ export const projects = [
     tags: ['React, API REST, Google Maps, Material-UI'],
     source: 'https://github.com/Deadflight/travel-companion-react',
     visit: 'https://travelcompaniondeadflight.netlify.app',
-    id: 2
+    id: 1
+  },
+  {
+    title: 'Pokedex',
+    description: "Using React, made this app using pokeAPI to practice my skills with Material UI, and React Router ",
+      image: '/images/pokedex.PNG',
+      tags: ['React','API REST', 'Material UI', 'React Router'],
+    source: 'https://github.com/Deadflight/Pokedex',
+    visit: 'https://deadflight.github.io/Pokedex',
+    id: 2,
+  },
+  {
+    title: 'E-Commerce',
+    description: "An E-Commerce using React.js and handling with Commercejs API and Stripe API",
+    image: '/images/ecommerce.PNG',
+    tags: ['React, Commercejs, Stripe, Material-UI'],
+    source: 'https://github.com/Deadflight/e-commercejs-react',
+    visit: 'https://ecommercejsreact.netlify.app/',
+    id: 3
   },
   {
     title: 'Medical-Chat',
@@ -33,15 +42,6 @@ export const projects = [
     tags: ['React', 'API Rest'],
     source: 'https://github.com/Deadflight/medical-chat-pager-frontend',
     visit: 'https://medic-chat.netlify.app/',
-    id: 3,
-  },
-  {
-    title: 'CryptoVerse',
-    description: "Crypto App using React, API Rest, Redux",
-      image: '/images/cryptoverse.PNG',
-      tags: ['React', 'API Rest', 'Redux'],
-    source: 'https://github.com/Deadflight/cryptoverse-react-app',
-    visit: 'https://cryptoversedeadflight.netlify.app/',
     id: 4,
   },
   {
