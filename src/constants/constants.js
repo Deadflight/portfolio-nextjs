@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: 'CryptoVerse',
-    description: "Crypto App using React, API Rest, Redux",
+    description: "Crypto App using React, coinranking API, Bing News Search API, Redux Toolkit",
       image: '/images/cryptoverse.PNG',
-      tags: ['React', 'API Rest', 'Redux'],
+      tags: ['React', 'API Rest', 'Redux Toolkit'],
     source: 'https://github.com/Deadflight/cryptoverse-react-app',
     visit: 'https://cryptoversedeadflight.netlify.app/',
     id: 0,
