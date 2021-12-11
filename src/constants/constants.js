@@ -19,11 +19,11 @@ export const projects = [
   },
   {
     title: 'Pokedex',
-    description: "Using React, made this app using pokeAPI to practice my skills with Material UI, and React Router ",
+    description: "Pokedex using Next.js, i18n,React Query, Styled Components, PokeAPI, SSR, ISR, SSG, Material UI",
       image: '/images/pokedex.PNG',
-      tags: ['React','API REST', 'Material UI', 'React Router'],
-    source: 'https://github.com/Deadflight/Pokedex',
-    visit: 'https://deadflight.github.io/Pokedex',
+      tags: ['Next.js','API REST', 'Material UI', 'React Query', 'i18n'],
+    source: 'https://github.com/Deadflight/pokedex-nextjs',
+    visit: 'https://pokedex-nextjs-beta.vercel.app/',
     id: 2,
   },
   {
