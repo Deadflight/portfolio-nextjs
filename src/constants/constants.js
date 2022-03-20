@@ -45,12 +45,12 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'Easybank',
-    description: "This is a solution to the easybank landing page challenge on Frontend Mentor using HTML5, CSS3, Sass, Vanilla JavaScript.",
+    title: 'Platzi Swag',
+    description: "My first aproach using Gatsby.js. This app was built with Gatbsy.js GraphQL, Styled Components",
     image: '/images/easybank.PNG',
-    tags: ['HTML5', 'SASS', 'Vanilla JavaScript'],
-    source: 'https://github.com/Deadflight/easybank-landing-page-master',
-    visit: 'https://deadflight.github.io/easybank-landing-page-master/',
+    tags: ['Gatsby.Js', 'Styled Components', 'GraphQL'],
+    source: 'https://platziswagmain.gatsbyjs.io',
+    visit: 'https://github.com/Deadflight/platzi-swag',
     id: 5,
   },
 ];
