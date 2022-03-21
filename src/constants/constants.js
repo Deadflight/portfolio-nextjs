@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Open Jira',
     description: "Open Jira, Jira similar app, working with NextJs, Material UI, TypeScript, Heroku, MongoDB, Mongoose",
-    image: '/images/ecommerce.PNG',
+    image: '/images/open-jira.png',
     tags: ['Next.Js, TypeScript, MongoDB, Material-UI, Mongoose, Context API'],
     source: 'https://github.com/Deadflight/e-commercejs-react',
     visit: 'https://opens-jira-deadflight.herokuapp.com/',
@@ -39,7 +39,7 @@ export const projects = [
     title: 'Plantpedia',
     description:"With Platzi's Next.Js courses Plantpedia learning about Server Side Rendering (SSR), Static Side Generation (SSG), Incremental Static Regeneration (ISR)",
     image: '/images/plantpedia.PNG',
-    tags: ['Next.js', 'TypeScript' ,'SSR', 'SSG','ISR', 'Contentful', 'Preview Mode'],
+    tags: ['Next.js', 'TypeScript', 'Contentful', 'Preview Mode'],
     source: 'https://github.com/Deadflight/Platzi-Plantpedia',
     visit: 'https://platzi-plantpedia-amber.vercel.app/',
     id: 4,
