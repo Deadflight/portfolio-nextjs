@@ -49,8 +49,8 @@ export const projects = [
     description: "My first aproach using Gatsby.js. This app was built with Gatbsy.js GraphQL, Styled Components, Stripe",
     image: '/images/platzi-swag.png',
     tags: ['Gatsby.Js', 'Styled Components', 'GraphQL', 'Stripe'],
-    source: 'https://platziswagmain.gatsbyjs.io',
-    visit: 'https://github.com/Deadflight/platzi-swag',
+    source: 'https://github.com/Deadflight/platzi-swag',
+    visit: 'https://platziswagmain.gatsbyjs.io',
     id: 5,
   },
 ];
