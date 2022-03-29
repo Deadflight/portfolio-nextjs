@@ -31,8 +31,8 @@ export const projects = [
     description: "Open Jira, Jira similar app, working with NextJs, Material UI, TypeScript, Heroku, MongoDB, Mongoose",
     image: '/images/open-jira.png',
     tags: ['Next.Js, TypeScript, MongoDB, Material-UI, Mongoose, Context API'],
-    source: 'https://github.com/Deadflight/e-commercejs-react',
-    visit: 'https://opens-jira-deadflight.herokuapp.com/',
+    source: 'https://github.com/Deadflight/open-jira',
+    visit: 'https://open-jira-one.vercel.app',
     id: 3
   },
   {
