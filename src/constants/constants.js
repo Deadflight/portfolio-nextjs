@@ -20,6 +20,16 @@ export const projects = [
 		id: 1,
 	},
 	{
+		title: "Calendar App",
+		description:
+			"In this side project i wanted to adventure in the backend so i use node.js and express as framework and React as the Frontend of the app",
+		image: "/images/calendar-app.png",
+		tags: ["React, API REST, Express.js, Node.js"],
+		source: "https://github.com/Deadflight/calendar-app",
+		visit: "https://calendar-app-theta.vercel.app",
+		id: 2,
+	},
+	{
 		title: "CryptoVerse",
 		description:
 			"Crypto App using React, coinranking API, Bing News Search API, Redux Toolkit",
@@ -27,7 +37,7 @@ export const projects = [
 		tags: ["React", "API Rest", "Redux Toolkit"],
 		source: "https://github.com/Deadflight/cryptoverse-react-app",
 		visit: "https://cryptoversedeadflight.netlify.app/",
-		id: 2,
+		id: 3,
 	},
 	{
 		title: "Pokedex",
@@ -37,7 +47,7 @@ export const projects = [
 		tags: ["Next.js", "API REST", "Material UI", "React Query", "i18n"],
 		source: "https://github.com/Deadflight/pokedex-nextjs",
 		visit: "https://pokedex-nextjs-beta.vercel.app/",
-		id: 3,
+		id: 4,
 	},
 	{
 		title: "Travel Companion",
@@ -47,18 +57,18 @@ export const projects = [
 		tags: ["React, API REST, Google Maps, Material-UI"],
 		source: "https://github.com/Deadflight/travel-companion-react",
 		visit: "https://travelcompaniondeadflight.netlify.app",
-		id: 4,
-	},
-	{
-		title: "Open Jira",
-		description:
-			"Open Jira, Jira similar app, working with NextJs, Material UI, TypeScript, Heroku, MongoDB, Mongoose",
-		image: "/images/open-jira.png",
-		tags: ["Next.Js, TypeScript, MongoDB, Material-UI, Mongoose, Context API"],
-		source: "https://github.com/Deadflight/open-jira",
-		visit: "https://open-jira-one.vercel.app",
 		id: 5,
 	},
+	// {
+	// 	title: "Open Jira",
+	// 	description:
+	// 		"Open Jira, Jira similar app, working with NextJs, Material UI, TypeScript, Heroku, MongoDB, Mongoose",
+	// 	image: "/images/open-jira.png",
+	// 	tags: ["Next.Js, TypeScript, MongoDB, Material-UI, Mongoose, Context API"],
+	// 	source: "https://github.com/Deadflight/open-jira",
+	// 	visit: "https://open-jira-one.vercel.app",
+	// 	id: 5,
+	// },
 	// {
 	// 	title: "Platzi Swag",
 	// 	description:
