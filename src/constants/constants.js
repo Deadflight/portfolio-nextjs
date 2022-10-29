@@ -15,7 +15,7 @@ export const projects = [
 			"Teslo Shop ECommerce website made with Next.Js, MongoDB, Next Auth,Materil UI",
 		image: "/images/teslo-shop.PNG",
 		source: "https://github.com/Deadflight/nextjs-teslo-shop",
-		tags: ["Next.Js", "MongoDB", "Next Auth", "Materil UI"],
+		tags: ["Next.Js", "MongoDB", "Next Auth", "Material UI"],
 		visit: "https://teslo-shop-carlos.herokuapp.com",
 		id: 1,
 	},
