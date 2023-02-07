@@ -16,7 +16,7 @@ export const projects = [
 		image: "/images/teslo-shop.PNG",
 		source: "https://github.com/Deadflight/nextjs-teslo-shop",
 		tags: ["Next.Js", "MongoDB", "Next Auth", "Material UI"],
-		visit: "https://nextjs-teslo-shop-nine.vercel.app",
+		visit: "https://nextjs-teslo-shop-production.up.railway.app/",
 		//visit: "https://nextjs-teslo-shop-production.up.railway.app",
 		id: 1,
 	},
