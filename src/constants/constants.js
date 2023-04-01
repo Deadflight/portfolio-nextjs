@@ -1,13 +1,22 @@
 export const projects = [
 	{
+		title: "Kumbio",
+		description: "Application to schedule appointments and manage business.",
+		image: "/images/app-kumbio.png",
+		source: null,
+		tags: ["React", "Boostrap", "Redux ToolKit", "REST API"],
+		visit: "https://app.kumbio.com",
+		id: 0,
+	},
+	{
 		title: "Cheeky Bonsai",
 		description:
 			"Cheeky Bonsai science-backed UTI products made for balanced urinary tract health",
 		image: "/images/cheekybonsai.PNG",
-		source: "https://cheekybonsai.com",
+		source: null,
 		tags: ["Gatsby.Js", "Shopify", "Styled Components", "GraphQL"],
 		visit: "https://cheekybonsai.com",
-		id: 0,
+		id: 1,
 	},
 	{
 		title: "Teslo Shop",
@@ -18,7 +27,7 @@ export const projects = [
 		tags: ["Next.Js", "MongoDB", "Next Auth", "Material UI"],
 		visit: "https://nextjs-teslo-shop-production.up.railway.app/",
 		//visit: "https://nextjs-teslo-shop-production.up.railway.app",
-		id: 1,
+		id: 2,
 	},
 	{
 		title: "Calendar App",
@@ -28,7 +37,7 @@ export const projects = [
 		tags: ["React, API REST, Express.js, Node.js"],
 		source: "https://github.com/Deadflight/calendar-app",
 		visit: "https://calendar-app-theta.vercel.app",
-		id: 2,
+		id: 3,
 	},
 	{
 		title: "CryptoVerse",
@@ -38,16 +47,6 @@ export const projects = [
 		tags: ["React", "API Rest", "Redux Toolkit"],
 		source: "https://github.com/Deadflight/cryptoverse-react-app",
 		visit: "https://cryptoversedeadflight.netlify.app/",
-		id: 3,
-	},
-	{
-		title: "Pokedex",
-		description:
-			"Pokedex using Next.js, i18n,React Query, Styled Components, PokeAPI, SSR, ISR, SSG, Material UI",
-		image: "/images/pokedex.PNG",
-		tags: ["Next.js", "API REST", "Material UI", "React Query", "i18n"],
-		source: "https://github.com/Deadflight/pokedex-nextjs",
-		visit: "https://pokedex-nextjs-beta.vercel.app/",
 		id: 4,
 	},
 	{
@@ -60,6 +59,16 @@ export const projects = [
 		visit: "https://travelcompaniondeadflight.netlify.app",
 		id: 5,
 	},
+	// 	{
+	// 	title: "Pokedex",
+	// 	description:
+	// 		"Pokedex using Next.js, i18n,React Query, Styled Components, PokeAPI, SSR, ISR, SSG, Material UI",
+	// 	image: "/images/pokedex.PNG",
+	// 	tags: ["Next.js", "API REST", "Material UI", "React Query", "i18n"],
+	// 	source: "https://github.com/Deadflight/pokedex-nextjs",
+	// 	visit: "https://pokedex-nextjs-beta.vercel.app/",
+	// 	id: 5,
+	// },
 	// {
 	// 	title: "Open Jira",
 	// 	description:
