@@ -1,38 +1,20 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
-import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
-import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
-import Head from 'next/head';
-import { MetaTags } from '../constants/constants';
+import Acomplishments from "../components/Acomplishments/Acomplishments";
+import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
+import Hero from "../components/Hero/Hero";
+import Projects from "../components/Projects/Projects";
+import Technologies from "../components/Technologies/Technologies";
+import Timeline from "../components/TimeLine/TimeLine";
+import { Layout } from "../layout/Layout";
+import { Section } from "../styles/GlobalComponents";
+import Head from "next/head";
+import { MetaTags } from "../constants/constants";
 
 const Home = () => {
-  return (
-    <>
-    <Head>
-      <title>{MetaTags.og.title}</title>  
-      <meta property='og:title' content={MetaTags.og.title}/>
-      <meta property='og:image' content={MetaTags.og.image}/>
-      <meta property='og:description' content={MetaTags.og.description}/>
-      <meta property='og:url' content={MetaTags.og.url}/>
-      <meta property='og:image' name="linkedin:image" content={MetaTags.og.image}/>
-    </Head>
-    <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      {/*<Acomplishments />*/}
-    </Layout>
-    </>
-  );
-  
+  if (typeof window !== "undefined") {
+    window.location.replace("https://www.carlos-correa.com/");
+    return null;
+  }
+  return null;
 };
 
 export default Home;
