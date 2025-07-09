@@ -10,11 +10,32 @@ import Head from "next/head";
 import { MetaTags } from "../constants/constants";
 
 const Home = () => {
-  if (typeof window !== "undefined") {
-    window.location.replace("https://www.carlos-correa.com/");
-    return null;
-  }
-  return null;
+  return (
+    <>
+      <Head>
+        <title>{MetaTags.og.title}</title>
+        <meta property="og:title" content={MetaTags.og.title} />
+        <meta property="og:image" content={MetaTags.og.image} />
+        <meta property="og:description" content={MetaTags.og.description} />
+        <meta property="og:url" content={MetaTags.og.url} />
+        <meta
+          property="og:image"
+          name="linkedin:image"
+          content={MetaTags.og.image}
+        />
+      </Head>
+      <Layout>
+        <Section grid>
+          <Hero />
+          <BgAnimation />
+        </Section>
+        <Projects />
+        <Technologies />
+        <Timeline />
+        {/*<Acomplishments />*/}
+      </Layout>
+    </>
+  );
 };
 
 export default Home;
